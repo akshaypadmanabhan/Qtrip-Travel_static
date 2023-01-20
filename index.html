@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip</title>
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqj7E_1yzNQ3QaDIVHqgscKF970kLMi5CtIw&usqp=CAU"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- 1. Create a <link> to the first stylesheet needed for Bootstrap -->
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+      integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"
+      integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- 1. Use appropriate css classes on nav element. -->
+    <!-- 2. Add child elements as required. -->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">QTrip</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#toggle-id"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="toggle-id">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/adventures/index.html">Explore</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero-image">
+      <h1>Welcome To QTrip</h1>
+      <p class="hero-subheading">
+        Explore the world with fantastic places to venture around
+      </p>
+      <input class="hero-input" placeholder="Search City" />
+    </div>
+    <div class="row p-3 m-4 equal">
+      <div class="col-12 col-sm-6 col-lg-3 my-3 d-flex">
+        <a href="pages/adventures/index.html">
+          <div class="tile text-white border-0 rounded-lg">
+            <img src="/assets/bengaluru.jpg" class="card-img rounded-lg" alt="...">
+            <div class="card-img-overlay justify-content-center">
+              <div class="place-cont">
+                <h5 class="tile">Bengaluru</h5>
+                <p class="tile-text">100+ places</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 my-3 d-flex">
+        <div class="tile text-white border-0 rounded-lg">
+          <a href="pages/adventures/index.html">
+            <img src="/assets/kolkata.jpg" class="card-img rounded-lg" alt="...">
+            <div class="card-img-overlay justify-content-center">
+              <div class="place-cont">
+                <h5 class="tile">Kolkata</h5>
+                <p class="tile-text">52+ places</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 my-3 d-flex">
+        <div class="tile text-white border-0 rounded-lg">
+          <a href="pages/adventures/index.html">
+            <img src="/assets/goa.jpg" class="card-img rounded-lg" alt="...">
+            <div class="card-img-overlay justify-content-center">
+              <div class="place-cont">
+                <h5 class="tile">Goa</h5>
+                <p class="tile-text">160+ places</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 my-3 d-flex">
+        <a href="pages/adventures/index.html">
+          <div class="tile text-white border-0 rounded-lg" style="height: 100%">
+            <img src="/assets/mumbai.jpg" class="card-img rounded-lg" alt="...">
+            <div class="card-img-overlay justify-content-center">
+              <div class="place-cont">
+                <h5 class="tile">Mumbai</h5>
+                <p class="tile-text">121+ places</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 my-3 d-flex">
+        <div class="tile text-white border-0 rounded-lg">
+          <a href="pages/adventures/index.html">
+            <img src="/assets/singapore.jpg" class="card-img rounded-lg" alt="...">
+            <div class="card-img-overlay justify-content-center">
+              <div class="place-cont">
+                <h5 class="tile">Singapore</h5>
+                <p class="tile-text">89+ places</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 my-3 d-flex">
+        <div class="tile text-white border-0 rounded-lg">
+          <a href="pages/adventures/index.html">
+            <img src="/assets/dubai.jpg" class="card-img rounded-lg" alt="...">
+            <div class="card-img-overlay justify-content-center">
+              <div class="place-cont">
+                <h5 class="tile">Dubai</h5>
+                <p class="tile-text">74+ places</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 my-3 d-flex">
+        <a href="pages/adventures/index.html">
+          <div class="tile text-white border-0 rounded-lg" style="height: 100%">
+            <img src="/assets/malaysia.jpg" class="card-img rounded-lg" alt="...">
+            <div class="card-img-overlay justify-content-center">
+              <div class="place-cont">
+                <h5 class="tile">Malaysia</h5>
+                <p class="tile-text">172+ places</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 my-3 d-flex">
+        <div class="tile text-white border-0 rounded-lg">
+          <a href="pages/adventures/index.html">
+            <img src="/assets/paris.jpg" class="card-img rounded-lg" alt="...">
+            <div class="card-img-overlay justify-content-center">
+              <div class="place-cont">
+                <h5 class="tile">Paris</h5>
+                <p class="tile-text">150+ places</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">© QTrip 2020</div>
+    </footer>
+
+    <!-- TODO: MODULE_LAYOUT -->
+    <!-- Add scripts needed for bootstrap to work -->
+  </body>
+</html>
